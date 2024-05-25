@@ -1,0 +1,9 @@
+What is a closure?
+- A closure is a function bundled together with references to its surrounding state(the variables  that are in scope at the time it was created). This allows the function to access those variables - even if it is executed outside of the scope where it was defined.
+- The function is also called as lambda/ lambda abstraction
+- The surrounding state is called environment/ lexical scope - this environment allows the function to access variables that are not in its parameter list but are defined in the scope where the function was created.
+- When a closure is created, it "closes over" its surrounding state, hence the term "closure"
+
+
+1. Function/lambda : The main executable code, often represented a computation or operation to be performed.
+2. Environment/Lexical scope/ Context : This consists of all the variables that were in scope at the time the closure was created

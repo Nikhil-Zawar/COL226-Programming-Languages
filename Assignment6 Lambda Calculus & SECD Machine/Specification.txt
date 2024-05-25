@@ -1,0 +1,11 @@
+Consider the grammar exp ::== x | lambda_x.e1 | (e1 e2) 
+This is of the ocaml type exp = VAR of string | ABS of string*exp | APP of exp*exp ;;
+VAR is Variable, ABS is the abstraction written in form of lambda expressions and APP is application of one expression into another, kinda like abstraction.
+
+To this grammar you can add other types like numerals, booleans, tuples, projection, conditionals, case statements,etc.
+
+Implement in Ocaml a SECD machine which follows a call by value semantics . For this you would need value closures in the set of answers. 
+
+Implement the compile function as well.
+
+
