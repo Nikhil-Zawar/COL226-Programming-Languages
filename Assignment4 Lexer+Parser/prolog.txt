@@ -1,0 +1,2 @@
+fact1(fact3(G,F),Y)  :- rule2(B,A).  
+hact43(+(54443, 43),Nikhil).
