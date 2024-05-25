@@ -1,4 +1,4 @@
 run :
-	ocamlc -o main fin_sub.ml
+	ocamlc -o main a5_main.ml
 	./main
 
